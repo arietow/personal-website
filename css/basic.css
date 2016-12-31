@@ -1,0 +1,48 @@
+
+body{
+  background-color:#000;
+  font-size:16px;
+  font-weight:normal;
+  color:#fff;
+  margin:auto;
+  text-align:center;
+}
+h1{
+  color:#df02e2;
+  font-family: 'Permanent Marker', cursive;
+  font-size:6em;
+  line-height:.5;
+}
+
+h2{
+  color:#df02e2;
+  font-family: 'Permanent Marker', cursive;
+  font-size:3em;
+  line-height:.5;
+}
+
+h3{
+  color:#df02e2;
+  font-family: 'Permanent Marker', cursive;
+  font-size:2em;
+}
+
+p{
+  font-family: 'Bitter', serif;
+  font-size:1.25em;
+  color:#fff;
+  }
+}
+div.headline{
+  position:relative;
+  top:10%;
+  margin:auto;
+  text-align:center;
+  -ms-transform: rotate(-9deg); /* IE 9 */
+    -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
+    transform: rotate(-9deg);
+}
+div.content{
+  position:relative;
+  margin-top:100px;
+}
