@@ -31,11 +31,10 @@ p{
   font-family: 'Bitter', serif;
   font-size:1.25em;
   color:#fff;
-  }
 }
-div.headline{
-  position:relative;
-  top:10%;
+
+.headline{
+  padding:100px;
   margin:auto;
   text-align:center;
   -ms-transform: rotate(-9deg); /* IE 9 */
