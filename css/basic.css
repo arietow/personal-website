@@ -1,47 +1,24 @@
+@font-face {
+    font-family: GeomanistRegular;
+    src: url(../static/fonts/geomanist/geomanist-regular-italic-webfont.eot);
+    font-weight:400;
+}
 
 body{
-  background-color:#000;
-  font-size:16px;
-  font-weight:normal;
+  background-image:url('https://s-media-cache-ak0.pinimg.com/564x/7b/c3/a3/7bc3a3b5e1fd74354b6a5b5317b940a5.jpg');
+  margin:5% 25%
+}
+*{
   color:#fff;
-  margin:auto;
   text-align:center;
 }
 h1{
-  color:#fff;
-  font-family: 'Permanent Marker', cursive;
-  font-size:6em;
-  line-height:.5;
+  font-family: "GeomanistRegular", Helvetica, sans-serif;
+  text-transform:uppercase;
 }
-
-h2{
-  color:#fff;
-  font-family: 'Permanent Marker', cursive;
-  font-size:3em;
-  line-height:.5;
+.headline h1{
+  border-bottom:1px solid #fff;
 }
-
-h3{
-  color:#fff;
-  font-family: 'Permanent Marker', cursive;
-  font-size:2em;
-}
-
-p{
-  font-family: 'Bitter', serif;
-  font-size:1.25em;
-  color:#fff;
-}
-
-.headline{
-  padding:100px;
-  margin:auto;
-  text-align:center;
-  -ms-transform: rotate(-9deg); /* IE 9 */
-    -webkit-transform: rotate(-9deg); /* Chrome, Safari, Opera */
-    transform: rotate(-9deg);
-}
-div.content{
-  position:relative;
-  margin-top:100px;
+.content{
+  margin:10%;
 }
